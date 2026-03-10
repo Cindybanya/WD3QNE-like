@@ -1,0 +1,11 @@
+eicu_raw/
+eicu_processed/
+eicu_processed_full/
+
+*.npy
+*.csv
+*.gz
+
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
