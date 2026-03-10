@@ -24,7 +24,7 @@ print("Loaded:", states.shape, actions.shape, rewards.shape, dones.shape)
 n_states = states.shape[1]
 n_actions = int(actions.max()) + 1
 
-# ========= 2. 定义 DuelingDQN（要和训练时完全一样） =========
+# ========= 2. DuelingDQN =========
 class DuelingDQN(nn.Module):
     def __init__(self, state_dim, action_dim, hidden_dim=128):
         super().__init__()
